@@ -24,5 +24,5 @@ step:2 Replace
 * const container=document.getElementById('root');
 * const root=createRoot(container);
 * root.render(<React.StrictMode>
-*  <App> </App>
+*  = Here input App Route
 * </React.StrictMode>);
