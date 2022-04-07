@@ -16,13 +16,13 @@
 
 #### solved (ReactDOM.render) warning.
 step:1 Replace
-* import ReactDom from 'react';  ===>  import {createRoot} from "react-dom/client"
+* import ReactDom from 'react-dom';  ===>  import {createRoot} from "react-dom/client"
 
 step:2 Replace
 * ReactDom.render(.......detElementById('root'))  ===>
 
-const container=document.getElementById('root');
-const root=createRoot(container);
-root.render(<React.StrictMode>
-  <App />
-</React.StrictMode>);
+* const container=document.getElementById('root');
+* const root=createRoot(container);
+* root.render(<React.StrictMode>
+*  <App />
+* </React.StrictMode>);
