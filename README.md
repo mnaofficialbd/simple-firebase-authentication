@@ -21,8 +21,8 @@ step:1 Replace
 step:2 Replace
 * ReactDom.render(.......detElementById('root'))  ===>
 
-* const container=document.getElementById('root');
-* const root=createRoot(container);
-* root.render(<React.StrictMode>
-*  = Here input App Route
-* </React.StrictMode>);
+ const container=document.getElementById('root');
+ const root=createRoot(container);
+ root.render(<React.StrictMode>
+  = Here input App Route
+ </React.StrictMode>);
